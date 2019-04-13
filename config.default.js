@@ -9,6 +9,9 @@ const config = {
   },
   slack: {
     token: 'xoxb-Your-Token',
+    clientId: 'your-client-id',
+    clientSecret: 'your-client-secret',
+    clientSigningSecret: 'your-client-signing-secret',
     autoReconnect: true,
   },
 };
